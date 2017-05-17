@@ -4,3 +4,7 @@ Available options are:
 - DANS EASY 
 - Islandora
 - Archivematica
+
+# Installation
+mvn clean install
+# Deploy application in Glassfish 
