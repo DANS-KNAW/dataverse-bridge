@@ -5,6 +5,8 @@ Available options are:
 - Islandora
 - Archivematica
 
+Application is using the same pipeline as Dataverse-Archivematica bridge https://wiki.archivematica.org/Dataverse
+
 # Installation
 ```
 git clone https://github.com/DANS-KNAW/easy-sword2-dans-examples
@@ -16,4 +18,6 @@ mvn clean install
 ```
 
 # Deploy application in Glassfish 
+```
 /usr/local/glassfish4/bin/asadmin deploy dataverse-bridge-1.0-SNAPSHOT.war
+```
